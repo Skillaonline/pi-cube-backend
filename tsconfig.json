@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",                  
+    "module": "CommonJS",               
+                                      
+    "rootDir": "src",                   
+    "outDir": "dist",                  
+
+    "esModuleInterop": true,            
+    "allowSyntheticDefaultImports": true,
+
+    "strict": true,                     
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,               
+
+    "typeRoots": ["node_modules/@types", "node_modules/@prisma/client"]
+  },
+  "include": ["src/**/*"]
+}
